@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Connect - Post a Job</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Post a New Job</h1>
+    <nav>
+      <a href="employer.html">Back to Dashboard</a>
+    </nav>
+  </header>
+
+  <main>
+    <table class="maintain">
+    <form id="postJobForm" class="form-container">
+      <tr>
+      <td><label for="title">Job Title</label></td>
+      <td><input type="text" id="title" placeholder="Enter job title" required></td>
+      </tr>
+
+      <tr>
+      <td><label for="description">Job Description</label></td>
+      <td><textarea id="description" placeholder="Enter job description" required></textarea></td>
+      </tr>
+      
+       <tr>
+      <td><label for="location">Location</label></td>
+      <td><input type="text" id="location" placeholder="Enter job location" required></td>
+      </tr>
+ 
+      <tr>
+      <td><label for="salary">Salary (optional)</label></td>
+      <td><input type="number" id="salary" placeholder="Enter salary"></td>
+      </tr>
+
+      <td><button type="submit" class="btn-primary">Post Job</button></td>
+    </form>
+    </table>
+
+    <p id="message"></p>
+  </main>
+
+  <script src="postjob.js"></script>
+</body>
+</html>

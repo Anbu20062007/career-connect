@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Connect - Job Seeker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome Job Seeker</h1>
+    <nav>
+      <a href="jobs.html">Browse Jobs</a>
+      <a href="profile.html">My Profile</a>
+      <a href="logout.html">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Recommended Jobs for You</h2>
+    <div id="job-list">
+      <!-- Example Jobs -->
+      <div class="job-card">
+        <h3>Software Engineer</h3>
+        <p>Company: Tech Solutions</p>
+        <p>Location: Bangalore</p>
+        <button onclick="applyJob(1)">Apply Now</button>
+
+      </div>
+      <div class="job-card">
+        <h3>Web Developer</h3>
+        <p>Company: WebWorks</p>
+        <p>Location: Chennai</p>
+        <button onclick="applyJob(2)">Apply Now</button>
+
+      </div>
+    </div>
+  </main>
+  <script src="jobseeker.js"></script>
+
+</body>
+</html>
